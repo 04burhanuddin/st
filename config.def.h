@@ -105,6 +105,9 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* bg opacity */
+float alpha = 0.8;
+
 typedef struct {
 	const char* const colors[258]; /* terminal colors */
 	unsigned int fg;               /* foreground */
@@ -194,7 +197,7 @@ static unsigned int defaultrcs;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
