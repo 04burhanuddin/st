@@ -12,7 +12,7 @@ static char *font2[] = {
 /*     "Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 
-static int borderpx = 5;
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -170,7 +170,7 @@ static const ColorScheme schemes[] = {
 	  [256]="#586e75", "#002b36"}, 12, 8, 256, 257},
 
 	// Gruvbox dark
-	{{"#282828", "#cc241d", "#98971a", "#d79921",
+	{{"#1d2021", "#cc241d", "#98971a", "#d79921",
 	  "#458588", "#b16286", "#689d6a", "#a89984",
 	  "#928374", "#fb4934", "#b8bb26", "#fabd2f",
 	  "#83a598", "#d3869b", "#8ec07c", "#ebdbb2",
