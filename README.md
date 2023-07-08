@@ -1,7 +1,8 @@
 # Burhan Build of ST (simple terminal)
---------------------
-st is a simple terminal emulator for X which sucks less. from [suckless.org](https://suckless.org/)
 
+> Version 0.9
+
+st is a simple terminal emulator for X which sucks less. from [suckless.org](https://suckless.org/)
 
 ## Requirements
 
@@ -35,4 +36,3 @@ sudo make clean install
 ## Credits
 
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
-
