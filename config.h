@@ -8,7 +8,9 @@
 static char *font = "JetbrainsMono Nerd Font:pixelsize=15:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
+	/* add font you need on terminal */
   "JetbrainsMono Nerd Font:pixelsize=12:antialias=true:autohint=true",
+  "noto-fonts-emoji:pixelsize=12:antialias=true:autohint=true"
 };
 
 static int borderpx = 10;
