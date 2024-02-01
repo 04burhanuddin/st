@@ -9,7 +9,7 @@ static char *font = "JetbrainsMono Nerd Font:pixelsize=15:antialias=true:autohin
 /* Spare fonts */
 static char *font2[] = {
 	/* add font you need on terminal */
-  "JetbrainsMono Nerd Font:pixelsize=12:antialias=true:autohint=true",
+  "MesloLGS NF:pixelsize=12:antialias=true:autohint=true",
   "noto-fonts-emoji:pixelsize=12:antialias=true:autohint=true"
 };
 
@@ -113,7 +113,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1;
 
 typedef struct {
 	const char* const colors[258]; /* terminal colors */
@@ -186,7 +186,7 @@ static const ColorScheme schemes[] = {
 };
 
 static const char * const * colorname;
-int colorscheme = 6;
+int colorscheme = 4;
 
 /*
  * Default colors (colorname index)
